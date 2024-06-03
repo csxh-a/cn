@@ -1385,54 +1385,10 @@ ul{
   }
 }
 
-#breadcrumb-list{
-  font-size : 1.3rem;
-  margin-left : auto;
-  margin-right : auto;
-  box-sizing : border-box;
-}
-
-#breadcrumb-list div{
-  padding-top : 0px;
-  padding-left : 0px;
-  padding-right : 0px;
-  padding-bottom : 0px;
-  margin-top : 16px;
-  margin-left : 0px;
-  margin-right : 0px;
-  margin-bottom : 16px;
-}
-
-#sp-definition-list-1, #sp-definition-list-2, #sp-definition-list-3, #sp-definition-list-4{
-  margin-top : 0px;
-  margin-left : 0px;
-  margin-right : 0px;
-  margin-bottom : 19px;
-}
-
-#sp-definition-list-1 > dd, #sp-definition-list-2 > dd, #sp-definition-list-3 > dd, #sp-definition-list-4 > dd{
-  margin-top : 10px;
-  margin-left : 40px;
-  margin-right : 0px;
-  margin-bottom : 0px;
-}
-
-#sp-definition-list-1 > dt, #sp-definition-list-2 > dt, #sp-definition-list-3 > dt, #sp-definition-list-4 > dt{
-  padding-left : 15px;
-  margin-top : 25px;
-  border-left-width : 5px;
-  border-left-style : solid;
-  border-left-color : #fdbb36;
-}
-
-#sp-definition-list-1 > dt:first-child, #sp-definition-list-2 > dt:first-child, #sp-definition-list-3 > dt:first-child, #sp-definition-list-4 > dt:first-child{
-  margin-top : 0px;
-}
-
 @media not screen, screen and (min-width: 569px) {
 
   #sp-site-navigation-2{
-    background-image : url(img/back-main-nav-2.png);
+    background-image : url(img/back-main-nav-01.png);
     background-position : left 2px;
     padding-top : 2px;
     padding-left : 100%;
@@ -1563,7 +1519,7 @@ ul{
   #sp-site-navigation-2 .menu-toggle{
     font-size : 1.3rem;
     background-color : #fdbb36;
-    background-image : url(img/icon-menu-toggle9.png);
+    background-image : url(img/icon-menu-toggle.png);
     background-repeat : no-repeat;
     background-position : center center;
     text-indent : -9999px;
@@ -1828,7 +1784,7 @@ ul{
   line-height : 1.5;
   color : #343434;
   background-color : #ffffff;
-  background-image : url(img/back-title-3.png);
+  background-image : url(img/back-title-01.png);
   background-repeat : repeat-x;
   padding-top : 11px;
   padding-left : 40px;
@@ -1857,7 +1813,7 @@ ul{
 #sp-page-title-1 > h1::before, #sp-page-title-2 > h1::before, #sp-page-title-3 > h1::before, #sp-page-title-4 > h1::before, #sp-page-title-5 > h1::before, #sp-page-title-6 > h1::before, #sp-page-title-7 > h1::before{
   color : #c8e162;
   background-color : #a4d119;
-  background-image : url(img/back-title-4.png);
+  background-image : url(img/back-title-03.png);
   background-repeat : repeat-x;
   text-indent : -9999px;
   border-top-left-radius : 3px 3px;
@@ -1874,6 +1830,38 @@ ul{
   z-index : 1;
   overflow : hidden;
   content : ".";
+}
+
+#sp-list-1{
+  padding-top : 0px;
+  padding-left : 13px;
+  padding-right : 0px;
+  padding-bottom : 0px;
+  margin-top : 0px;
+  margin-left : 0px;
+  margin-right : 0px;
+  margin-bottom : 18px;
+  list-style-type : none;
+  list-style-position : outside;
+}
+
+#sp-list-1 > li{
+  background-color : transparent;
+  background-image : url(img/icon-arrow-03.gif);
+  background-repeat : no-repeat;
+  background-attachment : scroll;
+  background-position : left 0.5em;
+  background-clip : border-box;
+  background-origin : padding-box;
+  background-size : auto auto;
+  padding-top : 0px;
+  padding-left : 10px;
+  padding-right : 0px;
+  padding-bottom : 0px;
+}
+
+#sp-list-1 > ul{
+  margin-bottom : 0px;
 }
 
 #sp-entry-content-1, #sp-entry-content-10, #sp-entry-content-11, #sp-entry-content-12, #sp-entry-content-13, #sp-entry-content-2, #sp-entry-content-3, #sp-entry-content-4, #sp-entry-content-5, #sp-entry-content-6, #sp-entry-content-7, #sp-entry-content-8, #sp-entry-content-9, #sp-wp-post-list-1, #sp-wp-post-list-10, #sp-wp-post-list-2, #sp-wp-post-list-3, #sp-wp-post-list-4, #sp-wp-post-list-5, #sp-wp-post-list-6, #sp-wp-post-list-7, #sp-wp-post-list-8, #sp-wp-post-list-9{
@@ -2090,7 +2078,7 @@ ul{
 
 #sp-entry-content-1 > article > footer .by-author, #sp-entry-content-10 > article > footer .by-author, #sp-entry-content-11 > article > footer .by-author, #sp-entry-content-12 > article > footer .by-author, #sp-entry-content-13 > article > footer .by-author, #sp-entry-content-2 > article > footer .by-author, #sp-entry-content-3 > article > footer .by-author, #sp-entry-content-4 > article > footer .by-author, #sp-entry-content-5 > article > footer .by-author, #sp-entry-content-6 > article > footer .by-author, #sp-entry-content-7 > article > footer .by-author, #sp-entry-content-8 > article > footer .by-author, #sp-entry-content-9 > article > footer .by-author, #sp-wp-post-list-1 > article > footer .by-author, #sp-wp-post-list-10 > article > footer .by-author, #sp-wp-post-list-2 > article > footer .by-author, #sp-wp-post-list-3 > article > footer .by-author, #sp-wp-post-list-4 > article > footer .by-author, #sp-wp-post-list-5 > article > footer .by-author, #sp-wp-post-list-6 > article > footer .by-author, #sp-wp-post-list-7 > article > footer .by-author, #sp-wp-post-list-8 > article > footer .by-author, #sp-wp-post-list-9 > article > footer .by-author{
   background-color : transparent;
-  background-image : url(img/icon-author2.gif);
+  background-image : url(img/icon-author.gif);
   background-repeat : no-repeat;
   background-attachment : scroll;
   background-position : left center;
@@ -2103,7 +2091,7 @@ ul{
 
 #sp-entry-content-1 > article > footer .cat-links, #sp-entry-content-10 > article > footer .cat-links, #sp-entry-content-11 > article > footer .cat-links, #sp-entry-content-12 > article > footer .cat-links, #sp-entry-content-13 > article > footer .cat-links, #sp-entry-content-2 > article > footer .cat-links, #sp-entry-content-3 > article > footer .cat-links, #sp-entry-content-4 > article > footer .cat-links, #sp-entry-content-5 > article > footer .cat-links, #sp-entry-content-6 > article > footer .cat-links, #sp-entry-content-7 > article > footer .cat-links, #sp-entry-content-8 > article > footer .cat-links, #sp-entry-content-9 > article > footer .cat-links, #sp-wp-post-list-1 > article > footer .cat-links, #sp-wp-post-list-10 > article > footer .cat-links, #sp-wp-post-list-2 > article > footer .cat-links, #sp-wp-post-list-3 > article > footer .cat-links, #sp-wp-post-list-4 > article > footer .cat-links, #sp-wp-post-list-5 > article > footer .cat-links, #sp-wp-post-list-6 > article > footer .cat-links, #sp-wp-post-list-7 > article > footer .cat-links, #sp-wp-post-list-8 > article > footer .cat-links, #sp-wp-post-list-9 > article > footer .cat-links{
   background-color : transparent;
-  background-image : url(img/icon-cat2.gif);
+  background-image : url(img/icon-cat.gif);
   background-repeat : no-repeat;
   background-attachment : scroll;
   background-position : left center;
@@ -2116,7 +2104,7 @@ ul{
 
 #sp-entry-content-1 > article > footer .comments-link, #sp-entry-content-10 > article > footer .comments-link, #sp-entry-content-11 > article > footer .comments-link, #sp-entry-content-12 > article > footer .comments-link, #sp-entry-content-13 > article > footer .comments-link, #sp-entry-content-2 > article > footer .comments-link, #sp-entry-content-3 > article > footer .comments-link, #sp-entry-content-4 > article > footer .comments-link, #sp-entry-content-5 > article > footer .comments-link, #sp-entry-content-6 > article > footer .comments-link, #sp-entry-content-7 > article > footer .comments-link, #sp-entry-content-8 > article > footer .comments-link, #sp-entry-content-9 > article > footer .comments-link, #sp-wp-post-list-1 > article > footer .comments-link, #sp-wp-post-list-10 > article > footer .comments-link, #sp-wp-post-list-2 > article > footer .comments-link, #sp-wp-post-list-3 > article > footer .comments-link, #sp-wp-post-list-4 > article > footer .comments-link, #sp-wp-post-list-5 > article > footer .comments-link, #sp-wp-post-list-6 > article > footer .comments-link, #sp-wp-post-list-7 > article > footer .comments-link, #sp-wp-post-list-8 > article > footer .comments-link, #sp-wp-post-list-9 > article > footer .comments-link{
   background-color : transparent;
-  background-image : url(img/icon-comments2.gif);
+  background-image : url(img/icon-comments.gif);
   background-repeat : no-repeat;
   background-attachment : scroll;
   background-position : left center;
@@ -2129,7 +2117,7 @@ ul{
 
 #sp-entry-content-1 > article > footer .date, #sp-entry-content-10 > article > footer .date, #sp-entry-content-11 > article > footer .date, #sp-entry-content-12 > article > footer .date, #sp-entry-content-13 > article > footer .date, #sp-entry-content-2 > article > footer .date, #sp-entry-content-3 > article > footer .date, #sp-entry-content-4 > article > footer .date, #sp-entry-content-5 > article > footer .date, #sp-entry-content-6 > article > footer .date, #sp-entry-content-7 > article > footer .date, #sp-entry-content-8 > article > footer .date, #sp-entry-content-9 > article > footer .date, #sp-wp-post-list-1 > article > footer .date, #sp-wp-post-list-10 > article > footer .date, #sp-wp-post-list-2 > article > footer .date, #sp-wp-post-list-3 > article > footer .date, #sp-wp-post-list-4 > article > footer .date, #sp-wp-post-list-5 > article > footer .date, #sp-wp-post-list-6 > article > footer .date, #sp-wp-post-list-7 > article > footer .date, #sp-wp-post-list-8 > article > footer .date, #sp-wp-post-list-9 > article > footer .date{
   background-color : transparent;
-  background-image : url(img/icon-date2.gif);
+  background-image : url(img/icon-date.gif);
   background-repeat : no-repeat;
   background-attachment : scroll;
   background-position : left center;
@@ -2145,7 +2133,7 @@ ul{
 
 #sp-entry-content-1 > article > footer .tags-links, #sp-entry-content-10 > article > footer .tags-links, #sp-entry-content-11 > article > footer .tags-links, #sp-entry-content-12 > article > footer .tags-links, #sp-entry-content-13 > article > footer .tags-links, #sp-entry-content-2 > article > footer .tags-links, #sp-entry-content-3 > article > footer .tags-links, #sp-entry-content-4 > article > footer .tags-links, #sp-entry-content-5 > article > footer .tags-links, #sp-entry-content-6 > article > footer .tags-links, #sp-entry-content-7 > article > footer .tags-links, #sp-entry-content-8 > article > footer .tags-links, #sp-entry-content-9 > article > footer .tags-links, #sp-wp-post-list-1 > article > footer .tags-links, #sp-wp-post-list-10 > article > footer .tags-links, #sp-wp-post-list-2 > article > footer .tags-links, #sp-wp-post-list-3 > article > footer .tags-links, #sp-wp-post-list-4 > article > footer .tags-links, #sp-wp-post-list-5 > article > footer .tags-links, #sp-wp-post-list-6 > article > footer .tags-links, #sp-wp-post-list-7 > article > footer .tags-links, #sp-wp-post-list-8 > article > footer .tags-links, #sp-wp-post-list-9 > article > footer .tags-links{
   background-color : transparent;
-  background-image : url(img/icon-tags2.gif);
+  background-image : url(img/icon-tags.gif);
   background-repeat : no-repeat;
   background-attachment : scroll;
   background-position : left center;
@@ -2178,7 +2166,7 @@ ul{
   line-height : 1.5;
   color : #343434;
   background-color : #ffffff;
-  background-image : url(img/back-title-3.png);
+  background-image : url(img/back-title-01.png);
   background-repeat : repeat-x;
   padding-top : 11px;
   padding-left : 40px;
@@ -2201,7 +2189,7 @@ ul{
 #sp-entry-content-1 > article > header > h4 > a::before, #sp-entry-content-10 > article > header > h4 > a::before, #sp-entry-content-11 > article > header > h4 > a::before, #sp-entry-content-12 > article > header > h4 > a::before, #sp-entry-content-13 > article > header > h4 > a::before, #sp-entry-content-2 > article > header > h4 > a::before, #sp-entry-content-3 > article > header > h4 > a::before, #sp-entry-content-4 > article > header > h4 > a::before, #sp-entry-content-5 > article > header > h4 > a::before, #sp-entry-content-6 > article > header > h4 > a::before, #sp-entry-content-7 > article > header > h4 > a::before, #sp-entry-content-8 > article > header > h4 > a::before, #sp-entry-content-9 > article > header > h4 > a::before, #sp-wp-post-list-1 > article > header > h4 > a::before, #sp-wp-post-list-10 > article > header > h4 > a::before, #sp-wp-post-list-2 > article > header > h4 > a::before, #sp-wp-post-list-3 > article > header > h4 > a::before, #sp-wp-post-list-4 > article > header > h4 > a::before, #sp-wp-post-list-5 > article > header > h4 > a::before, #sp-wp-post-list-6 > article > header > h4 > a::before, #sp-wp-post-list-7 > article > header > h4 > a::before, #sp-wp-post-list-8 > article > header > h4 > a::before, #sp-wp-post-list-9 > article > header > h4 > a::before{
   color : #c8e162;
   background-color : #a4d119;
-  background-image : url(img/back-title-4.png);
+  background-image : url(img/back-title-03.png);
   background-repeat : repeat-x;
   text-indent : -9999px;
   border-top-left-radius : 3px 3px;
@@ -2262,7 +2250,7 @@ ul{
 }
 
 #sp-entry-content-1 > dl > dt, #sp-entry-content-10 > dl > dt, #sp-entry-content-11 > dl > dt, #sp-entry-content-12 > dl > dt, #sp-entry-content-13 > dl > dt, #sp-entry-content-2 > dl > dt, #sp-entry-content-3 > dl > dt, #sp-entry-content-4 > dl > dt, #sp-entry-content-5 > dl > dt, #sp-entry-content-6 > dl > dt, #sp-entry-content-7 > dl > dt, #sp-entry-content-8 > dl > dt, #sp-entry-content-9 > dl > dt, #sp-wp-post-list-1 > dl > dt, #sp-wp-post-list-10 > dl > dt, #sp-wp-post-list-2 > dl > dt, #sp-wp-post-list-3 > dl > dt, #sp-wp-post-list-4 > dl > dt, #sp-wp-post-list-5 > dl > dt, #sp-wp-post-list-6 > dl > dt, #sp-wp-post-list-7 > dl > dt, #sp-wp-post-list-8 > dl > dt, #sp-wp-post-list-9 > dl > dt{
-  background-image : url(img/icon-arrow-5.gif);
+  background-image : url(img/icon-arrow-01.gif);
   background-repeat : no-repeat;
   background-position : left 1.2em;
   padding-top : 12px;
@@ -2284,7 +2272,7 @@ ul{
   line-height : 1.5;
   color : #343434;
   background-color : #ffffff;
-  background-image : url(img/back-title-3.png);
+  background-image : url(img/back-title-01.png);
   background-repeat : repeat-x;
   padding-top : 11px;
   padding-left : 40px;
@@ -2307,7 +2295,7 @@ ul{
 #sp-entry-content-1 > h3 > a::before, #sp-entry-content-10 > h3 > a::before, #sp-entry-content-11 > h3 > a::before, #sp-entry-content-12 > h3 > a::before, #sp-entry-content-13 > h3 > a::before, #sp-entry-content-2 > h3 > a::before, #sp-entry-content-3 > h3 > a::before, #sp-entry-content-4 > h3 > a::before, #sp-entry-content-5 > h3 > a::before, #sp-entry-content-6 > h3 > a::before, #sp-entry-content-7 > h3 > a::before, #sp-entry-content-8 > h3 > a::before, #sp-entry-content-9 > h3 > a::before, #sp-wp-post-list-1 > h3 > a::before, #sp-wp-post-list-10 > h3 > a::before, #sp-wp-post-list-2 > h3 > a::before, #sp-wp-post-list-3 > h3 > a::before, #sp-wp-post-list-4 > h3 > a::before, #sp-wp-post-list-5 > h3 > a::before, #sp-wp-post-list-6 > h3 > a::before, #sp-wp-post-list-7 > h3 > a::before, #sp-wp-post-list-8 > h3 > a::before, #sp-wp-post-list-9 > h3 > a::before{
   color : #c8e162;
   background-color : #a4d119;
-  background-image : url(img/back-title-4.png);
+  background-image : url(img/back-title-03.png);
   background-repeat : repeat-x;
   text-indent : -9999px;
   border-top-left-radius : 3px 3px;
@@ -2367,7 +2355,7 @@ ul{
 }
 
 #sp-entry-content-1 > ul > li > a, #sp-entry-content-10 > ul > li > a, #sp-entry-content-11 > ul > li > a, #sp-entry-content-12 > ul > li > a, #sp-entry-content-13 > ul > li > a, #sp-entry-content-2 > ul > li > a, #sp-entry-content-3 > ul > li > a, #sp-entry-content-4 > ul > li > a, #sp-entry-content-5 > ul > li > a, #sp-entry-content-6 > ul > li > a, #sp-entry-content-7 > ul > li > a, #sp-entry-content-8 > ul > li > a, #sp-entry-content-9 > ul > li > a, #sp-wp-post-list-1 > ul > li > a, #sp-wp-post-list-10 > ul > li > a, #sp-wp-post-list-2 > ul > li > a, #sp-wp-post-list-3 > ul > li > a, #sp-wp-post-list-4 > ul > li > a, #sp-wp-post-list-5 > ul > li > a, #sp-wp-post-list-6 > ul > li > a, #sp-wp-post-list-7 > ul > li > a, #sp-wp-post-list-8 > ul > li > a, #sp-wp-post-list-9 > ul > li > a{
-  background-image : url(img/icon-arrow-5.gif);
+  background-image : url(img/icon-arrow-01.gif);
   background-repeat : no-repeat;
   background-position : left 1.2em;
   padding-top : 12px;
@@ -2397,38 +2385,6 @@ ul{
     padding-bottom : 5px;
     width : 100%;
   }
-}
-
-#sp-list-1{
-  padding-top : 0px;
-  padding-left : 13px;
-  padding-right : 0px;
-  padding-bottom : 0px;
-  margin-top : 0px;
-  margin-left : 0px;
-  margin-right : 0px;
-  margin-bottom : 18px;
-  list-style-type : none;
-  list-style-position : outside;
-}
-
-#sp-list-1 > li{
-  background-color : transparent;
-  background-image : url(img/icon-arrow-6.gif);
-  background-repeat : no-repeat;
-  background-attachment : scroll;
-  background-position : left 0.5em;
-  background-clip : border-box;
-  background-origin : padding-box;
-  background-size : auto auto;
-  padding-top : 0px;
-  padding-left : 10px;
-  padding-right : 0px;
-  padding-bottom : 0px;
-}
-
-#sp-list-1 > ul{
-  margin-bottom : 0px;
 }
 
 #sp-block-container-2{
@@ -2474,6 +2430,50 @@ ul{
   #sp-block-container-2 .copyright{
     text-align : center;
   }
+}
+
+#breadcrumb-list{
+  font-size : 1.3rem;
+  margin-left : auto;
+  margin-right : auto;
+  box-sizing : border-box;
+}
+
+#breadcrumb-list div{
+  padding-top : 0px;
+  padding-left : 0px;
+  padding-right : 0px;
+  padding-bottom : 0px;
+  margin-top : 16px;
+  margin-left : 0px;
+  margin-right : 0px;
+  margin-bottom : 16px;
+}
+
+#sp-definition-list-1, #sp-definition-list-2, #sp-definition-list-3, #sp-definition-list-4{
+  margin-top : 0px;
+  margin-left : 0px;
+  margin-right : 0px;
+  margin-bottom : 19px;
+}
+
+#sp-definition-list-1 > dd, #sp-definition-list-2 > dd, #sp-definition-list-3 > dd, #sp-definition-list-4 > dd{
+  margin-top : 10px;
+  margin-left : 40px;
+  margin-right : 0px;
+  margin-bottom : 0px;
+}
+
+#sp-definition-list-1 > dt, #sp-definition-list-2 > dt, #sp-definition-list-3 > dt, #sp-definition-list-4 > dt{
+  padding-left : 15px;
+  margin-top : 25px;
+  border-left-width : 5px;
+  border-left-style : solid;
+  border-left-color : #fdbb36;
+}
+
+#sp-definition-list-1 > dt:first-child, #sp-definition-list-2 > dt:first-child, #sp-definition-list-3 > dt:first-child, #sp-definition-list-4 > dt:first-child{
+  margin-top : 0px;
 }
 
 #sp-site-branding2-1 .extra{
@@ -2577,7 +2577,7 @@ ul{
 @media not screen, screen and (min-width: 569px) {
 
   #sp-site-navigation-1{
-    background-image : url(img/back-main-nav-2.png);
+    background-image : url(img/back-main-nav-01.png);
     background-position : left 2px;
     padding-top : 2px;
     padding-left : 100%;
@@ -2688,22 +2688,22 @@ ul{
 
   #sp-site-navigation-1 > ul > li.current-menu-ancestor > a{
     color : #eaff01;
-    background-image : url(img/back-main-nav-01-hover2.png);
+    background-image : url(img/back-main-nav-01-hover.png);
   }
 
   #sp-site-navigation-1 > ul > li.current-menu-item > a{
     color : #eaff01;
-    background-image : url(img/back-main-nav-01-hover2.png);
+    background-image : url(img/back-main-nav-01-hover.png);
   }
 
   #sp-site-navigation-1 > ul > li.current_page_ancestor > a{
     color : #eaff01;
-    background-image : url(img/back-main-nav-01-hover2.png);
+    background-image : url(img/back-main-nav-01-hover.png);
   }
 
   #sp-site-navigation-1 > ul > li.current_page_item > a{
     color : #eaff01;
-    background-image : url(img/back-main-nav-01-hover2.png);
+    background-image : url(img/back-main-nav-01-hover.png);
   }
 
   #sp-site-navigation-1 > ul > li > a{
@@ -2725,7 +2725,7 @@ ul{
 
   #sp-site-navigation-1 > ul > li > a:hover{
     color : #eaff01;
-    background-image : url(img/back-main-nav-01-hover2.png);
+    background-image : url(img/back-main-nav-01-hover.png);
   }
 }
 
@@ -2739,7 +2739,7 @@ ul{
   #sp-site-navigation-1 .menu-toggle{
     font-size : 1.3rem;
     background-color : #fdbb36;
-    background-image : url(img/icon-menu-toggle9.png);
+    background-image : url(img/icon-menu-toggle.png);
     background-repeat : no-repeat;
     background-position : center center;
     text-indent : -9999px;
@@ -2844,7 +2844,7 @@ ul{
 }
 
 #sp-site-branding2-1 .site-title{
-  background-image : url(img/logo1.png);
+  background-image : url(img/logo.png);
 }
 
 .sp-wp-post-list#sp-wp-post-list-7 > article > .entry-content{
